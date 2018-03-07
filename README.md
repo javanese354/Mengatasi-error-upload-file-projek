@@ -17,14 +17,23 @@ nah, mudah ni cara mengatasinya, cukup ikuti langkah berikut ini :
 1. Buat dulu Repository kalian
 2. Buka Git Bash kalian dan ketik perintah berikut
  $ git init
+ 
  $ git add .
+ 
  $ git commit -m "First commit"
+ 
  $ git remote add origin {remote repository URL} 
+ 
  contoh git remote add origin https://github.com/example/example.git
+ 
  Solusinya ada di sini nih,
+ 
  Solusinya tambahkan tag --allow-unrelated-histories // tapi hanya sekali saja, kalo mau upload projek baru, tidak perlu ketik lagi, langsung ketik perintah $ git pull origin master 
+ 
  $ git pull origin master --allow-unrelated-histories
+ 
  Habis itu, baru deh kalian Push
+ 
  $ git push origin master
 
 # Selamat Mencoba
